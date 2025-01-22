@@ -1,0 +1,160 @@
+* {
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size:16px;
+}
+@media screen and (max-width: 920px) {
+    .categories{flex-direction: column;}
+    .categories{
+        flex-wrap: wrap;
+    }
+    .categories section {text-align: start;}
+    .container{
+        width: 100%;
+        flex-direction: row;
+    }
+    #hero{width: 100%;
+    background-position:center;}
+    }
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 120px;
+    margin-left: 20px;
+}
+
+.btn {
+    padding: 12px 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn_red {
+    background-color:#DE3021;
+    color: white;
+}
+
+header .btn {
+    float: right;
+    margin: 20px;
+}
+
+/*
+ * Hero
+ */
+#hero {
+    background-image: url("https://blog-investissement-immobilier.lybox.fr/html/bkg.jpg");
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+#hero h1 {
+    font-size: 72px;
+    text-shadow: 0 4px 4px rgb(0 0 0/.25);
+}
+
+#hero p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#hero .content {
+    width: 50%;
+}
+
+h2 {
+    border-left: 8px solid #DE3021;
+    padding-left: 18px;
+    margin: 24px 0;
+    font-size: 30px;
+}
+
+h2 span {
+    display: block;
+    font-size: 18px;
+}
+
+/*
+ * Categories
+ */
+.categories {
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    margin: 48px 0;
+    text-align: center;
+}
+
+.categories section {
+    height: 424px;
+    width: 278px;
+    border-radius: 18px;
+}
+
+.auto {
+    background-image: url("https://blog-investissement-immobilier.lybox.fr/html/auto.webp");
+}
+
+.brico {
+    background-image: url("https://blog-investissement-immobilier.lybox.fr/html/brico.webp");
+}
+
+.immo {
+    background-image: url("https://blog-investissement-immobilier.lybox.fr/html/immo.webp");
+}
+
+.categories section h3 {
+    width: 70%;
+    background-color: #DE3021;
+    color: white;
+    padding: 4px 12px 0;
+    line-height: 48px;
+    border-radius: 0 18px 18px 0;
+}
+
+.categories section a {
+    background-color: #DE3021;
+    color: white;
+    text-decoration: none;
+    border-radius: 18px;
+    padding: 12px 24px;
+    width: 80%;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin: 290px auto 0;
+    box-shadow: 0 4px 12px white;
+}
+
+footer {
+    background-color: #333333;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
